@@ -206,8 +206,19 @@ hr.small {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 /* Call to Action */
@@ -241,4 +252,59 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+/* Contact */
+
+.contact {
+  padding: 50px 0;
+}
+
+.contact-form h4 {
+	 color: #668944;
+	 margin-left: 20px;
+}
+ .contact-form input, .contact-form textarea, .contact-form .recaptcha, .contact-form button {
+	 margin: 5px 0;
+	 padding: 5px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 border: 1px solid #bbb;
+   color: #668944;
+}
+ .contact-form input:focus, .contact-form textarea:focus, .contact-form .recaptcha:focus, .contact-form button:focus {
+	 outline-color: ;
+}
+ .contact-form input.field, .contact-form textarea {
+	 min-width: 330px;
+}
+ .contact-form input[name=subject], .contact-form textarea {
+	 width: 73%;
+}
+ .contact-form textarea {
+	 height: 150px;
+}
+ .contact-form button {
+	 border: 0;
+	 background-color: ;
+	 padding: 8px 20px;
+	 color: #668944;
+	 margin-top: 20px;
+   margin-bottom: 20px;
+}
+ .contact-form button:hover {
+	 background-color: #e6e6e6;
+	 color: #e6e6e6;
+}
+ .contact-form .notice {
+	 display: none;
+	 background-color: #f2dede;
+	 border: 1px solid #ebccd1;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 padding: 10px 15px;
+	 color: #a94442;
+	 margin-top: 15px;
 }

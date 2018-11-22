@@ -10,19 +10,20 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner:
-email:
+email: mtmgan@gmail.com
 facebook_username:
 twitter_username:
 github_username:
+real:
+  - id: 3iZWuvAQjlg
+  - id: 5BoThOKVKaE
+  - id: ZC6gq-yYRfA
 address:
   - line:
   - line:
-  # Feel free to add more lines here 
-telephone:
+  # Feel free to add more lines here
+telephone: +336 00 00 00 00
 copyright:
-
-# API settings
-google_api_key:
 
 # Build settings
 markdown: kramdown
